@@ -83,6 +83,19 @@ Structuur
     width: 100%;
     top: 0;
     z-index: 2;}
+}
+
+.footer:before {
+    content: "\f0b2";
+    background: black;
+    padding: 3px;
+    color: orange;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+}
 
 .footer {
     border-bottom: none;
@@ -92,7 +105,7 @@ Structuur
     position: fixed;
     padding: 10px 15px 10px 10px;
     border-top-right-radius: 21px;
-    border-top: 1px solid white;}
+    border-top: 1px solid white;
 }
 
 .column2 {
@@ -115,6 +128,11 @@ Structuur
 .column3:nth-child(n+2) {
     margin-top: 20px;
     width: 50%;}
+	
+.footer {
+    padding: 0;
+    border-top-right-radius: 0px;
+    border-top: 1px solid white;}	
 }
 
 /* -------------------------------- 
@@ -683,6 +701,7 @@ Main Components
 
 @media only screen and (max-width: 767px) {
 .event-info .img-wrap {
+    background: #026ba7;
     margin: -1.4em -5% 15px;
     max-height: 130px;
     overflow: hidden;
