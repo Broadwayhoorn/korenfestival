@@ -658,12 +658,16 @@ Main Components
 }
 
 @media (min-width: 800px) {
+.cd-schedule .event.modal .event-name {
+    font-size: 1.6rem;}
+
 .event-info .songs {
     position: absolute;
     left: -27%;
     top: 20%;}
 	
 .event-info .content-wrap {
+    color: black;
     position: absolute;
     bottom: 0;
     max-height: 300px;
@@ -843,7 +847,7 @@ Main Components
     padding: .8em;
   }
   .cd-schedule .event-modal .event-info > div {
-    padding: 2em 3em 2em 2em;
+    padding: 0 3em 2em 2em;
   }
   .cd-schedule .event-modal .body {
     height: 100%;
