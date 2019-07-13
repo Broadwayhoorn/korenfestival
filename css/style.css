@@ -610,34 +610,6 @@ Main Components
     margin-bottom: 1rem;
 }
 
-@media (min-width: 1200px) {
-.event-info .img-wrap {
-    position: fixed;
-    max-height: 184px;
-    overflow-y: hidden;
-    margin: -2em -3em 1em -2em;
-    padding: 0px;
-    background: #ffffff;}
-
-.event-info img {
-    width: 468px;}
-
-.event-info .songs {
-    margin: 140px 0 0 -270px;
-    position: fixed;
-    color: #ffffff;
-    max-width: 225px;}
-
-.event-info .content-wrap {
-    color: black;
-    position: absolute;
-    bottom: 0;
-    height: 300px;
-    overflow-y: scroll;
-    padding: 20px;
-    background: #fbfae4;
-    margin: 0px 2px 0px -32px;}
-}
 
 @media (min-width: 768px) and (max-width: 799px) {
 .cd-schedule .event-modal .event-date {
@@ -670,6 +642,7 @@ Main Components
     color: black;
     position: absolute;
     bottom: 0;
+    border-top-left-radius: 15px;
     max-height: 300px;
     overflow-y: scroll;
     padding: 20px;
@@ -681,6 +654,28 @@ Main Components
 .cd-schedule .event-modal .event-date {
     margin-right: 10px;
     float: none;}
+}
+
+@media (min-width: 1200px) {
+.event-info .img-wrap {
+    padding: 3px;}
+
+.event-info img {
+    }
+
+.event-info .songs {
+    left: -37%;
+    top: 29%;}
+
+.event-info .content-wrap {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 20px;
+    background: #fbfae4;
+    margin: 0px 2px 0px -32px;}
 }
 
 @media only screen and (max-width: 767px) {
