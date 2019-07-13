@@ -428,8 +428,11 @@ Main Components
 .cd-schedule .event-name {
     font-size: 1.2rem;}
 
+.cd-schedule .event-modal .event-name {
+    font-size: 1.4rem;}
+
 .cd-schedule .events .single-event a {
-    padding: 0.4em 0.8em 0.8em 0.8em;}
+    padding: 0.2em 0.8em 0.8em 0.8em;}
 }
 
 /* Datum Evenementen */
