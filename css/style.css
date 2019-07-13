@@ -639,12 +639,12 @@ Main Components
     margin: 0px 2px 0px -32px;}
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 799px) {
 .cd-schedule .event-modal .event-date {
     display: block;}
 	
 .event-info .img-wrap {
-    text-align: center;}
+     text-align: center;}
 
 .event-info .songs {
     text-align: center;
@@ -652,12 +652,9 @@ Main Components
 
 .event-info .content-wrap {
     color: black;
-    margin: -1.4em 0 0 -5%;
     padding: 20px;
-    position: absolute;
     bottom: 0;
-    background: #feffe9;
-    height: 40vh;}
+    background: #feffe9;}
 }
 
 @media (min-width: 800px) {
@@ -688,7 +685,9 @@ Main Components
     max-height: 130px;
     overflow: hidden;
     padding: 0px;
-    position: fixed;}
+    position: fixed;
+    text-align: center;
+    width: 100%;}
 
 .img-wrap img {
     max-width: 360px;}
