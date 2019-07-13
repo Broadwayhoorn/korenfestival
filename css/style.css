@@ -660,6 +660,13 @@ Main Components
     height: 40vh;}
 }
 
+@media (min-width: 800px) {
+.event-info .songs {
+    position: absolute;
+    left: -27%;
+    top: 20%;}
+}
+
 @media (min-width: 1024px) {
 .cd-schedule .event-modal .event-date {
     margin-right: 10px;
