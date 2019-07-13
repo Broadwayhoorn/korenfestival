@@ -673,27 +673,13 @@ Main Components
     overflow-y: scroll;
     padding: 20px;
     background: #fbfae4;
-    margin: 0px 2px -4px -32px;}
+    margin: -1.4em 0 0 -5%;}
 }
 
 @media (min-width: 1024px) {
 .cd-schedule .event-modal .event-date {
     margin-right: 10px;
     float: none;}
-	
-.event-info .img-wrap {
-    position: fixed;
-    max-height: 150px;
-    overflow: hidden;
-    margin: -2em -3em 1em -2em;
-    padding: 20px;
-    background: #ffffff;}
-
-.event-info .songs {
-    margin: 140px 0 0 -224px;
-    position: fixed;
-    color: #ffffff;
-    max-width: 163px;}
 }
 
 @media only screen and (max-width: 767px) {
