@@ -61,6 +61,25 @@ a {
     max-height: 280px;
     overflow-y: scroll;
 }
+@media (min-width: 800px) {
+.event-info .songs.sing-along::-webkit-scrollbar {
+    width: 20px;}
+.event-info .songs.sing-along::-webkit-scrollbar-thumb {
+    background: #ff6700;
+    border-radius: 10px;}
+.event-info .songs.sing-along::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;}
+	
+.event-info .songs.sing-along {
+    left: -35%;
+    top: 29%;
+    background: #1d7fb7;
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 15px;
+    border-radius: 10px;}
+}
 
 @media (min-width: 1200px) {
 .event-info .songs.sing-along {
@@ -70,15 +89,6 @@ a {
     max-height: 300px;
     overflow-y: scroll;
     padding: 15px;
-    border-radius: 10px;}
-
-.event-info .songs.sing-along::-webkit-scrollbar {
-    width: 20px;}
-.event-info .songs.sing-along::-webkit-scrollbar-thumb {
-    background: #ff6700;
-    border-radius: 10px;}
-.event-info .songs.sing-along::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;}
 }
 
@@ -672,6 +682,12 @@ Main Components
 .cd-schedule .event.modal .event-name {
     font-size: 1.6rem;}
 
+.event-info .img-wrap {
+    padding: 3px;}
+
+.event-info img {
+    width: 100%;}
+	
 .event-info .songs {
     position: absolute;
     left: -27%;
@@ -686,7 +702,7 @@ Main Components
     overflow-y: scroll;
     padding: 20px;
     background: #fbfae4;
-    margin: -1.4em 0 0 -5%;}
+    margin: -1.4em 0 0 0;}
 }
 
 @media (min-width: 1024px) {
@@ -696,12 +712,6 @@ Main Components
 }
 
 @media (min-width: 1200px) {
-.event-info .img-wrap {
-    padding: 3px;}
-
-.event-info img {
-    width: 100%;}
-
 .event-info .songs {
     left: -37%;
     top: 29%;}
