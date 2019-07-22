@@ -690,8 +690,10 @@ Main Components
 	
 .event-info .songs {
     position: absolute;
-    left: -27%;
-    top: 20%;}
+    left: -34%;
+    top: 20%;
+    max-width: 180px;
+    font-size: 90%;}
 	
 .event-info .content-wrap {
     color: black;
@@ -713,8 +715,7 @@ Main Components
 
 @media (min-width: 1200px) {
 .event-info .songs {
-    left: -37%;
-    top: 29%;}
+}
 
 .event-info .content-wrap {
     color: black;
